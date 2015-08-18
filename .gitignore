@@ -1,0 +1,33 @@
+project.xcworkspace
+UserInterfaceState.xcuserstate
+build
+Product
+*.xccheckout
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+*~
+*~.nib
+*~.xib
+.DS_Store
+xcuserdata/
+
+# OS generated files #
+######################
+.DS_Store?
+Icon
+
+ehthumbs.db
+Thumbs.db
+
+*.tmp
+._*
+.Spotlight-V100
+.Trashes
+
+# Jekyll related items #
+########################
+_site/
+.sass-cache/
+.jekyll-metadata
+

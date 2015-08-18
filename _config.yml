@@ -1,0 +1,79 @@
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+url: "http://kenmux.github.io"
+#baseurl: "/contrast" # comment out if in root directory
+title: "西灣筆記"
+author: "Kenmux Lee"
+email: "kenmux@gmail.com"
+description: "擷英採華，以備不需！"
+#subheading: "Really cool blog about ... something"
+
+# This is the default format:
+# permalink: /:categories/:year/:month/:day/:title.html 
+# 
+# For more see: http://jekyllrb.com/docs/permalinks/
+#
+permalink: /archive/:title.html
+
+# Jekyll build & syntax highlighting settings
+#
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+highlighter: pygments
+markdown: kramdown # [ maruku | rdiscount | kramdown | redcarpet ]
+kramdown:
+    input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+
+# Settings for <!-- more --> tag
+#
+excerpt_separator: "<!-- more -->"
+more: 閱讀更多
+
+# Settings for comments helper
+#
+comments:
+#    disqus: "xiwan"
+#    isso: "comments.mysite.org"
+
+style:
+#    body: "whitesmoke"
+    padding: 33%
+    anchor: "#46f"
+    serif-heading: true
+    nav: "#181818"
+#    headline: "#06f"
+    description: "white"
+    article:
+        odd: "#ffffff"
+        even: "#222222"
+
+links:
+    - github: "https://github.com/kenmux/"
+    - twitter: "https://twitter.com/kenmuxlee/"
+    - google-plus: "https://plus.google.com/+KenmuxDe"
+#    - reddit: "https://www.reddit.com/user/kenmux/"
+#    - youtube: "https://www.youtube.com/user/kenmux"
+#    - steam: "http://steamcommunity.com/id/kenmux/"
+    - facebook: "https://facebook.com/kenmux/"
+    - rss: "http://xiwan.info/feed.xml"
+
+# Settings for pagination
+#
+#paginate: 10
+#paginate_path: "/archives/page/:num"
+
+# Some other limits
+post_limit: 5
+rss_limit: 5
+
+# Default date format is "ordinal" (resulting in "July 22nd 2007")
+# You can customize the format as defined in
+# http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
+# Additionally, %o will give you the ordinal representation of the day
+#
+date_format: "ordinal"
+
+# Define the order of pages in the navigation bar
+#
+nav_pages: ["首頁", "舊檔", "關於"]
