@@ -4,7 +4,7 @@ date: 2014-09-28 18:00:00 +0800
 categories: [Website]
 tags: [WordPress,Missed Schedule]
 imgurl: /assets/imgs/2014/09/28/wordpress-missed-schedule-solution
-comments: false
+comments: true
 ---
 
 明明設定好了排程，可到了時間、文章卻遲遲不能發表出來。登入後台查看了下狀態：「錯失排程(missed schedule)」。蝦米？！這是什麼狀況？鬱悶之餘，在網路上搜尋了一番，總算找到解決方案。  

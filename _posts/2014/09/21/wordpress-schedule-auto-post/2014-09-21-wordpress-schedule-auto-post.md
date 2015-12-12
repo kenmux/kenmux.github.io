@@ -4,7 +4,7 @@ date: 2014-09-21 18:00:00 +0800
 categories: [Website]
 tags: [Wordpress,Schedule]
 imgurl: /assets/imgs/2014/09/21/wordpress-schedule-auto-post
-comments: false
+comments: true
 ---
 
 WordPress內置了的一個非常實用的功能：WordPress排程；通過它，可以設定在任何時間自動發表文章（很便利的哦～）。<!-- more -->  

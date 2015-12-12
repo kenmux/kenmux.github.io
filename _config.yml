@@ -33,7 +33,7 @@ more: 閱讀更多
 # Settings for comments helper
 #
 comments:
-#    disqus: "xiwan"
+    disqus: "xiwan"
 #    isso: "comments.mysite.org"
 
 style:

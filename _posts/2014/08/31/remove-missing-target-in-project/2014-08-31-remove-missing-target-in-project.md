@@ -4,7 +4,7 @@ date: 2014-08-31 18:00:00 +0800
 categories: [iOS]
 tags: [iOS7,Xcode5,Scheme]
 imgurl: /assets/imgs/2014/08/31/remove-missing-target-in-project
-comments: false
+comments: true
 ---
 
 在Project初創和後續開發過程中，難免會增刪Target，但這樣會殘留很多無用的設置；有時會遇到如下情形，在Project中，還殘留著已經移除的Target (<span style="color:red">missing</span>)：  

@@ -3,7 +3,7 @@ title: "使用subtree將子目錄分離為獨立的Git存儲庫"
 date: 2014-11-30 18:00:00 +0800
 categories: [Git]
 tags: [Git,Subtree,Submodule]
-comments: false
+comments: true
 ---
 
 當一個專案在開發一段時間後，可能會有將某個子目錄單獨分離出來的需求。在subtree之前，可能需要比較繁瑣的步驟；不過現在，這也成為了一件輕鬆之事。<!-- more -->  

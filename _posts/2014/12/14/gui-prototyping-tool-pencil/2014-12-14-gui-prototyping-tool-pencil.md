@@ -4,7 +4,7 @@ date: 2014-12-14 18:00:00 +0800
 categories: [Software]
 tags: [Pencil,GUI Prototyping Tool]
 imgurl: /assets/imgs/2014/12/14/gui-prototyping-tool-pencil
-comments: false
+comments: true
 ---
 
 這一陣子，忙著設計蘋果應用的介面。但是！沒有設計工具！！俗話說的好，「巧婦難為無米之炊」，這可不行！！！本著「能用、可用」的原則，狠狠地在網路上搜刮了一番，總算找到了這款開源的圖形使用者介面原型工具：Pencil。  

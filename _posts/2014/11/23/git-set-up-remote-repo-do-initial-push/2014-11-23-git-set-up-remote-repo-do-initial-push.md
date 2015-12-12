@@ -3,7 +3,7 @@ title: "創建Git遠端存儲庫並做初次推送"
 date: 2014-11-23 18:00:00 +0800
 categories: [Git]
 tags: [Git]
-comments: false
+comments: true
 ---
 
 本文介紹如何創建存儲庫並做初次推送。注：本文參考自這篇文章：[GIT – SETTING UP A REMOTE REPOSITORY AND DOING AN INITIAL PUSH](http://thelucid.com/2008/12/02/git-setting-up-a-remote-repository-and-doing-an-initial-push/)，感興趣的可以戳進去看看。<!-- more -->  

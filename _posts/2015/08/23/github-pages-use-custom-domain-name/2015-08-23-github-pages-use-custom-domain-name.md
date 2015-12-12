@@ -4,7 +4,7 @@ date: 2015-08-23 18:00:00 +0800
 categories: [Website]
 tags: [GitHub Pages,Domain Name,Godaddy]
 imgurl: /assets/imgs/2015/08/23/github-pages-use-custom-domain-name
-comments: false
+comments: true
 ---
 
 前幾日，把Godaddy域名重新設置了下，從WordPress網站那兒拿來給GitHub Pages用了。趁著記憶猶新，先做個筆記！  

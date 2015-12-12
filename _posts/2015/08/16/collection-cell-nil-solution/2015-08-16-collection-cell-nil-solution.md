@@ -3,7 +3,7 @@ title: "Collection Cell為nil的解決方案"
 date: 2015-08-16 18:00:00 +0800
 categories: [iOS]
 tags: [iOS7,Xcode6,UICollectionViewCell]
-comments: false
+comments: true
 ---
 
 最近、遇到一個奇怪的問題：在storyboard中作了個UICollectionViewController，在其中客製了包含UILabel的UICollectionViewCell，並在函式-collectionView:cellForItemAtIndexPath:中設置UILabel；但是程式總是莫名其妙地在此處掛掉、而排查的結果是一切設置並無不妥之處？  

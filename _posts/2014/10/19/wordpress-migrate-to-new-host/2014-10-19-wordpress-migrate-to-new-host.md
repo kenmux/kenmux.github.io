@@ -4,7 +4,7 @@ date: 2014-10-19 18:00:00 +0800
 categories: [Website]
 tags: [WordPress,Migration]
 imgurl: /assets/imgs/2014/10/19/wordpress-migrate-to-new-host
-comments: false
+comments: true
 ---
 
 前面提過，本站原來是使用byethost主機的，後來出了點小插曲，改用hostinger主機了。期間手動做了次網站搬家，算是寶貴的經驗吧，於是做了下筆記。  

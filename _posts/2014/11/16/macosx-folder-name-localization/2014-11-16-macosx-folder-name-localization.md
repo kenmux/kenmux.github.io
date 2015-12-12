@@ -4,7 +4,7 @@ date: 2014-11-16 18:00:00 +0800
 categories: [OS]
 tags: [Mac OS X,Localization,Chinese]
 imgurl: /assets/imgs/2014/11/16/macosx-folder-name-localization
-comments: false
+comments: true
 ---
 
 當打開Finder時，會看到一些系統預設檔案夾名稱顯示為中文（如「下載項目」、「圖片」等等），而實際上它們都是英文的。從英文到中文，這就是「本土化」。當然，我們也可以對自己的檔案夾做同樣的「本土化」。本文即以Mac OS X 10.9.4為例，講解如何進行檔案夾名稱的「本土化」。<!-- more -->  

@@ -4,7 +4,7 @@ date: 2014-12-07 18:00:00 +0800
 categories: [Software]
 tags: [MEGA,Cloud Drive]
 imgurl: /assets/imgs/2014/12/07/mega-cloud-drive-introduction
-comments: false
+comments: true
 ---
 
 MEGA雲端硬碟，前身Megaupload，提供了50GB 雲端儲存同步空間，並提供了對應的同步客戶端軟體以支持不同的作業系統。不同於其他家，MEGA以「隱私安全」為賣點。  

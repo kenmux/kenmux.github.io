@@ -4,7 +4,7 @@ date: 2014-09-14 18:00:00 +0800
 categories: [Website]
 tags: [Wordpress,Hosting]
 imgurl: /assets/imgs/2014/09/14/wordpress-quick-setup-reference
-comments: false
+comments: true
 ---
 
 # 架站需要什麼  

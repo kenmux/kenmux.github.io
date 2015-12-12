@@ -3,7 +3,7 @@ title: "Windows下運行Jekyll"
 date: 2015-08-02 18:00:00 +0800
 categories: [Website]
 tags: [Jekyll,Windows]
-comments: false
+comments: true
 ---
 
 詳細教程、參見：[Run Jekyll on Windows](http://jekyll-windows.juthilo.com/)  

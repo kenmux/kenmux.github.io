@@ -4,7 +4,7 @@ date: 2014-10-12 18:00:00 +0800
 categories: [Website]
 tags: [WordPress,Domain Name,Nameserver]
 imgurl: /assets/imgs/2014/10/12/wordpress-bind-domain-name
-comments: false
+comments: true
 ---
 
 本文介紹如何給WordPress網站綁定Godaddy網域名稱，涉及到三個方面的設定：  

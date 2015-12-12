@@ -4,7 +4,7 @@ date: 2014-10-05 18:00:00 +0800
 categories: [Website]
 tags: [WordPress,Updraftplus]
 imgurl: /assets/imgs/2014/10/05/wordpress-backup-to-google-drive
-comments: false
+comments: true
 ---
 
 本文介紹如何使用Updraftplus將WordPress備份到谷歌雲端硬碟，參考自這篇文章：[备份WordPress到Google Drive: UpdraftPlus](http://blog.netsh.org/posts/wordpress-google-drive_1493.netsh.html)，感興趣的可以戳進去看看。  

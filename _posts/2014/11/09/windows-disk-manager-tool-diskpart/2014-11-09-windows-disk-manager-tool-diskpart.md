@@ -4,7 +4,7 @@ date: 2014-11-09 18:00:00 +0800
 categories: [Software]
 tags: [Windows,Diskpart]
 imgurl: /assets/imgs/2014/11/09/windows-disk-manager-tool-diskpart
-comments: false
+comments: true
 ---
 
 本文介紹的是，Windows內建的基於命令列的磁碟管理工具：Diskpart。  
