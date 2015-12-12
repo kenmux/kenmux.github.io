@@ -1,7 +1,7 @@
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-url: "http://kenmux.github.io"
+url: "https://xiwan.info"
 #baseurl: "/contrast" # comment out if in root directory
 title: "西灣筆記"
 author: "Kenmux Lee"
@@ -15,6 +15,9 @@ description: "擷英採華，以備不需！"
 # For more see: http://jekyllrb.com/docs/permalinks/
 #
 permalink: /archive/:title.html
+
+# Don't include protocol, just the domain
+enforce_ssl: xiwan.info
 
 # Jekyll build & syntax highlighting settings
 #
@@ -56,7 +59,7 @@ links:
 #    - youtube: "https://www.youtube.com/user/kenmux"
 #    - steam: "http://steamcommunity.com/id/kenmux/"
     - facebook: "https://facebook.com/kenmux/"
-    - rss: "http://xiwan.info/feed.xml"
+    - rss: "https://xiwan.info/feed.xml"
 
 # Settings for pagination
 #
