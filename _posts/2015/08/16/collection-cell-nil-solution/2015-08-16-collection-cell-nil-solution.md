@@ -12,7 +12,7 @@ comments: true
 
 細細追究起來，這事還得怪Xcode自動生成的程式碼，並沒有考慮到使用storyboard這種情景。請看這段程式碼：  
 
-{% highlight objective-c linenos %}
+{% highlight objc %}
 static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {

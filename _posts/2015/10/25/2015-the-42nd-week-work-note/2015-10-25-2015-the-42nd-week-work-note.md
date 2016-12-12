@@ -24,7 +24,7 @@ iOS提供了UITableview這樣的使用者介面。如果畫個簡圖的話、應
 
 方法一、在程式中呼叫`initWithFrame:`、`addSubview:`等函式直接實作。參考範例如下：  
 
-{% highlight objc linenos %}
+{% highlight objc %}
 // Header
 UIView *tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
 [tableHeaderView setBackgroundColor:[UIColor blueColor]];
@@ -53,7 +53,7 @@ footerLabel.backgroundColor = [UIColor clearColor];
 - Header/Footer的寬度會被拉伸/壓縮、而高度則不會！（方法二同樣適用！）  
 - 「完全」隱藏Table Header/Footer的方法、是採用面積為0的空視圖：  
 
-{% highlight objc linenos %}
+{% highlight objc %}
 // Hide table header
 [self.tableView setTableHeaderView:[[UIView alloc] initWithFrame:CGRectZero]];
 
@@ -67,7 +67,7 @@ footerLabel.backgroundColor = [UIColor clearColor];
 
 表頭檔(TableHeaderView.h)如下：  
 
-{% highlight objc linenos %}
+{% highlight objc %}
 #import <UIKit/UIKit.h>
 
 @interface TableHeaderView : UIView
@@ -77,7 +77,7 @@ footerLabel.backgroundColor = [UIColor clearColor];
 
 實作檔(TableHeaderView.m)如下：  
 
-{% highlight objc linenos %}
+{% highlight objc %}
 #import "TableHeaderView.h"
 
 @interface TableHeaderView ()
@@ -143,7 +143,7 @@ headerView.tintColor = [UIColor blackColor];
 
 自iOS8起、上述方法又失效啦！可行方法、是在程式裡這般做：  
 
-{% highlight objc linenos %}
+{% highlight objc %}
 UIView *backgroundView = [[UIView alloc] initWithFrame:headerView.bounds];
 backgroundView.backgroundColor = [UIColor blackColor];
 headerView.backgroundView = backgroundView;
