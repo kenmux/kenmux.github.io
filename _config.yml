@@ -25,8 +25,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
 highlighter: rouge # [ rouge | pygments ]
 markdown: kramdown # [ maruku | rdiscount | kramdown | redcarpet ]
-#kramdown:
-#    input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+kramdown:
+    input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
 
 # Settings for <!-- more --> tag
 #
@@ -35,8 +35,8 @@ more: 閱讀更多
 
 # Settings for comments helper
 #
-#comments:
-#    disqus: "xiwan"
+comments:
+    disqus: "xiwan"
 #    isso: "comments.mysite.org"
 
 style:
