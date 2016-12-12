@@ -24,7 +24,7 @@ comments: true
 
 在下面的範例中，將待分割字串存放在字符數組中：  
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <stdio.h>
 #include <string.h>
 
@@ -75,7 +75,7 @@ original string after 'strtok': MAC*:00*1C*42*A7*F1*D9 (@0x7fff5fbff7e0)
 
 在上一範例中，第8列引入了固定長度的字符數組，在不確定待切割字串長度的情景中，容易引發緩衝區溢位(buffer overflow)，故不推薦，可參考下面的範例：  
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -130,7 +130,7 @@ original string after 'strtok': MAC*:00*1C*42*A7*F1*D9 (@0x1002068d0)
 
 參考範例如下：  
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -192,7 +192,7 @@ original string after 'strtok_r': MAC*:00*1C*42*A7*F1*D9 (@0x1002068d0)
 
 參考範例如下：  
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

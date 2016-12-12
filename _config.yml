@@ -23,7 +23,7 @@ enforce_ssl: xiwan.info
 #
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
-highlighter: pygments
+highlighter: rouge # [ rouge | pygments ]
 markdown: kramdown # [ maruku | rdiscount | kramdown | redcarpet ]
 #kramdown:
 #    input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
@@ -64,7 +64,7 @@ links:
 # Settings for pagination
 #
 #paginate: 10
-#paginate_path: "/archives/page/:num"
+#paginate_path: "/archive/page/:num"
 
 # Some other limits
 post_limit: 5

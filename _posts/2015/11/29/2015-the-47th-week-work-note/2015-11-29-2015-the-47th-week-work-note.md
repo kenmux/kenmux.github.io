@@ -19,7 +19,7 @@ comments: true
 
 # <a name="get-top-view-controller"></a>擷取頂層視圖控制器
 
-{% highlight objc linenos %}
+{% highlight objc %}
 + (UIViewController *)topViewController {
     @synchronized(self) {
         return [self topViewController:[UIApplication sharedApplication].keyWindow.rootViewController];
