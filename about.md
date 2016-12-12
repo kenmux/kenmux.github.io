@@ -31,4 +31,6 @@ permalink: /about/index.html
 08/31/2014 第一篇文章正式發表。  
 09/04/2014 緊急遷移至「Hostinger」。  
 07/31/2015 遷移至Github Pages。  
+11/29/2015 借力Cloudflare採用https。  
+12/03/2016 更換域名：XIWAN.IO。  
 
