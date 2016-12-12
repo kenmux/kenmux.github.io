@@ -15,7 +15,7 @@ comments: true
 
 # Ruby環境設置
 
-在命令列下、依次執行以下命令即可（假若DevKit放置在C區）：
+在命令列下、依次執行以下命令即可（假若DevKit放置在C分割上）：
 
 {% highlight text %}
 cd C:\RubyDevKit
