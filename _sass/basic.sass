@@ -3,7 +3,8 @@
 body
     display: flex
     min-height: 100%
-    font-family: "Source Sans Pro", sans-serif //, "FontAwesome"
+    font-family: "Source Sans Pro", "Calibri", "Helvetica", sans-serif
+    //font-family: "Source Sans Pro", sans-serif, "FontAwesome"
     font-weight: 300
     font-size: 1.4em
     font-size: calc(.6vw + .8em)
@@ -12,8 +13,7 @@ body
     margin: 0
 
 h1, h2, h3, h4, h5, h6
-    //font-family: "FontAwesome", "Gentium Basic", serif
-    font-weight: 600
+    font-weight: 600//300
     line-height: 1em
     a
         font-size: 1.2em
@@ -28,7 +28,7 @@ a
         color: #46e
 
 strong, b, th
-    font-weight: 600
+    font-weight: 600//400
 
 iframe, img, embed, object, video
     max-width: 100%
@@ -40,6 +40,9 @@ table
     th, td
         padding: .5em 1em
         border: 1px solid
+    ul.noindent, ol.noindent
+        margin: 0
+        padding-left: 1em
 
 pre
     overflow: auto
