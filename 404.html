@@ -4,10 +4,10 @@ permalink: /404.html
 ---
 
 <article>
-	<header>
-        	<h1><a href="https://en.wikipedia.org/wiki/HTTP_404">404</a></h1>
-		<div>Nothing to see here. Except these nice <a href="https://mrdoob.github.io/three.js/examples/canvas_geometry_birds.html">threejs birds</a>.</div>
-	</header>
+    <header>
+        <h1><a href="https://en.wikipedia.org/wiki/HTTP_404">404</a></h1>
+        <div>Nothing to see here. Except these nice <a href="https://mrdoob.github.io/three.js/examples/canvas_geometry_birds.html">threejs birds</a>.</div>
+    </header>
 </article>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js"></script>
@@ -1459,11 +1459,15 @@ function init() {
     document.addEventListener( 'mousemove', onDocumentMouseMove, false );
     document.body.appendChild( renderer.domElement );
     document.body.style.overflowX = 'hidden';
-    document.getElementsByTagName('canvas')[0].style.padding = '0';
+    /*document.getElementsByTagName('canvas')[0].style.padding = '0';
     document.getElementsByTagName('article')[0].style.position = 'absolute';
     document.getElementsByTagName('article')[0].style.width = '100%';
     document.getElementsByTagName('article')[0].style.backgroundColor = 'rgba(255, 255, 255, .6)';
-    document.getElementsByTagName('article')[0].style.padding = '0px';
+    document.getElementsByTagName('article')[0].style.padding = '0px';*/
+    document.getElementsByTagName('body')[0].style.position = 'absolute';
+    document.getElementsByTagName('body')[0].style.width = '100%';
+    document.getElementsByTagName('body')[0].style.backgroundColor = 'rgba(255, 255, 255, .6)';
+    document.getElementsByTagName('body')[0].style.padding = '0px';
     window.addEventListener( 'resize', onWindowResize, false );
 }
 function onWindowResize() {
