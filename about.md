@@ -33,4 +33,5 @@ permalink: /about/index.html
 07/31/2015 遷移至Github Pages。  
 11/29/2015 借力Cloudflare採用https。  
 12/03/2016 更換域名：XIWAN.IO。  
+08/03/2018 砍掉過時的筆記  
 
