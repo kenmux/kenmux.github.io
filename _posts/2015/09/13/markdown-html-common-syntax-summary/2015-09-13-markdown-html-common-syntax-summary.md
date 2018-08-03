@@ -32,7 +32,7 @@ Markdown語法請參考[這裡][1]，HTML語法請參考[這裡][2]。
       斷行
     </td>
     <td>
-      在行尾加上兩個以上的<span style="background-color:lightgrey">空白</span>然後按<span style="background-color:lightgrey">回車</span><br />
+      在行尾加上兩個以上的<span style="background-color:lightgrey">空格</span>然後按<span style="background-color:lightgrey">回車</span><br />
       <ul class="noindent" type="circle">
         <li>Markdown預設</li>
       </ul>
@@ -68,7 +68,7 @@ Markdown語法請參考[這裡][1]，HTML語法請參考[這裡][2]。
 
 <span class="p">###### 標題六</span></code></pre></div>
       <ul class="noindent" type="circle">
-        <li><span style="background-color:lightgrey">#</span>與標題文字間須有<span style="background-color:lightgrey">空白</span></li>
+        <li><span style="background-color:lightgrey">#</span>與標題文字間須有<span style="background-color:lightgrey">空格</span></li>
         <li>標題前後須有空行</li>
       </ul>
     </td>
@@ -111,7 +111,7 @@ Markdown語法請參考[這裡][1]，HTML語法請參考[這裡][2]。
 <div class="highlight"><pre><code class="language-md" data-lang="md"><span class="gt">&gt; 引言  </span></code></pre></div>
       <ul class="noindent" type="circle">
         <li>引言區塊前後須有空行</li>
-        <li>行尾須有兩個以上的<span style="background-color:lightgrey">空白</span></li>
+        <li>行尾須有兩個以上的<span style="background-color:lightgrey">空格</span></li>
       </ul>
     </td>
   </tr>
@@ -241,8 +241,8 @@ Markdown語法請參考[這裡][1]，HTML語法請參考[這裡][2]。
 <span class="p">-</span> 週二  
 <span class="p">-</span> 週三  </code></pre></div>
       <ul class="noindent" type="circle">
-        <li><span style="background-color:lightgrey">-</span>與項目間須有<span style="background-color:lightgrey">空白</span></li>
-        <li>項目行尾須有兩個以上的<span style="background-color:lightgrey">空白</span></li>
+        <li><span style="background-color:lightgrey">-</span>與項目間須有<span style="background-color:lightgrey">空格</span></li>
+        <li>項目行尾須有兩個以上的<span style="background-color:lightgrey">空格</span></li>
         <li>項目清單前後須有空行</li>
       </ul>
     </td>
@@ -278,8 +278,8 @@ Markdown語法請參考[這裡][1]，HTML語法請參考[這裡][2]。
 <span class="p">3.</span> 葡萄  </code></pre></div>
       <ul class="noindent" type="circle">
         <li>編號不可為0</li>
-        <li>編號與項目間須有<span style="background-color:lightgrey">空白</span></li>
-        <li>項目行尾須有兩個以上的<span style="background-color:lightgrey">空白</span></li>
+        <li>編號與項目間須有<span style="background-color:lightgrey">空格</span></li>
+        <li>項目行尾須有兩個以上的<span style="background-color:lightgrey">空格</span></li>
         <li>項目清單前後須有空行</li>
       </ul>
     </td>
@@ -332,6 +332,17 @@ Markdown語法請參考[這裡][1]，HTML語法請參考[這裡][2]。
     </td>
   </tr>
   <tr>
+    <td align="center">
+      空格
+    </td>
+    <td>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&amp;nbsp;</span> : 空 格(x1)<br><span class="nt">&amp;ensp;</span> : 空  格(x2)<br><span class="nt">&amp;emsp;</span> : 空    格(x4)</code></pre></div>
+      <ul class="noindent" type="circle">
+        <li>當需要向MD檔插入複數空格時格外有用</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
     <td align="center" rowspan="2">
       <img src="/assets/icons/favicon-32x32.png" alt="favicon-32x32.png"/>
     </td>
@@ -349,12 +360,12 @@ Markdown語法請參考[這裡][1]，HTML語法請參考[這裡][2]。
       <a href="https://xiwan.info">西灣筆記</a>
     </td>
     <td>
-<div class="highlight"><pre><code class="language-md" data-lang="md"><span class="p">[</span><span class="nv">西灣筆記</span><span class="p">](</span><span class="sx">https://xiwan.info</span><span class="p">)</span></code></pre></div>
+<div class="highlight"><pre><code class="language-md" data-lang="md"><span class="p">[</span><span class="nv">西灣筆記</span><span class="p">](</span><span class="sx">https://xiwan.io</span><span class="p">)</span></code></pre></div>
     </td>
   </tr>
   <tr>
     <td>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://xiwan.info"</span><span class="nt">&gt;</span>西灣筆記<span class="nt">&lt;/a&gt;</span></code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://xiwan.io"</span><span class="nt">&gt;</span>西灣筆記<span class="nt">&lt;/a&gt;</span></code></pre></div>
     </td>
-  </tr>
+  </tr>  
 </table>
