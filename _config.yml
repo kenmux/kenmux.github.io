@@ -80,3 +80,8 @@ date_format: "ordinal"
 # Define the order of pages in the navigation bar
 #
 nav_pages: ["首頁", "舊檔", "關於"]
+
+# Configure the plugins needed
+#
+plugins:
+    - jekyll-sitemap
