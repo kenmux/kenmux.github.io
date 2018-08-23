@@ -2,7 +2,7 @@
 title: "閏年的最佳效率演算法"
 date: 2016-06-26 18:00:00 +0800
 categories: [Programming]
-tags: [leap year,algorithm]
+tags: [Leap Year,Algorithm]
 comments: true
 ---
 
