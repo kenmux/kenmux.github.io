@@ -4,7 +4,6 @@ permalink: /archive/index.html
 ---
 <ul>
   {% for post in site.posts %}
-
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y年' }}</h3>
     {% else %}
